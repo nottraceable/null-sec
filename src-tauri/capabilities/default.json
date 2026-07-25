@@ -1,0 +1,14 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default capability setup for NULL SEC client",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "dialog:default",
+    "dialog:allow-[#image-filter]",
+    "fs:default",
+    "fs:allow-read-text",
+    "fs:allow-write-text"
+  ]
+}
